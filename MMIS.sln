@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMIS.API", "MMIS.API\MMIS.API.csproj", "{A7E29926-2F77-4515-ACE3-40474E6A9A33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMIS.BusinessLogicLayer", "MMIS.BusinessLogicLayer\MMIS.BusinessLogicLayer.csproj", "{A2E4D9C4-881C-4D9F-AFAB-4CC0E08DB8D3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMIS.CommonLayer", "MMIS.CommonLayer\MMIS.CommonLayer.csproj", "{D0581B44-4877-4D13-8E86-96454F22B0D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMIS.Core", "MMIS.Core\MMIS.Core.csproj", "{F4AFAD1F-1262-4E71-8B53-6AB28B174A5A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMIS.DataAccessLayer", "MMIS.DataAccessLayer\MMIS.DataAccessLayer.csproj", "{2317E493-7A19-447A-A447-C4C16B9D1B00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMIS.DomainLayer", "MMIS.DomainLayer\MMIS.DomainLayer.csproj", "{DD938FAE-E535-4F92-8C12-5330F772EED3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MMIS.Test", "MMIS.Test\MMIS.Test.csproj", "{8D11E920-75F5-47D6-93AD-9BD9F61A8F23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7E29926-2F77-4515-ACE3-40474E6A9A33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E29926-2F77-4515-ACE3-40474E6A9A33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E29926-2F77-4515-ACE3-40474E6A9A33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E29926-2F77-4515-ACE3-40474E6A9A33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2E4D9C4-881C-4D9F-AFAB-4CC0E08DB8D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2E4D9C4-881C-4D9F-AFAB-4CC0E08DB8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2E4D9C4-881C-4D9F-AFAB-4CC0E08DB8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2E4D9C4-881C-4D9F-AFAB-4CC0E08DB8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0581B44-4877-4D13-8E86-96454F22B0D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0581B44-4877-4D13-8E86-96454F22B0D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0581B44-4877-4D13-8E86-96454F22B0D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0581B44-4877-4D13-8E86-96454F22B0D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4AFAD1F-1262-4E71-8B53-6AB28B174A5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4AFAD1F-1262-4E71-8B53-6AB28B174A5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4AFAD1F-1262-4E71-8B53-6AB28B174A5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4AFAD1F-1262-4E71-8B53-6AB28B174A5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2317E493-7A19-447A-A447-C4C16B9D1B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2317E493-7A19-447A-A447-C4C16B9D1B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2317E493-7A19-447A-A447-C4C16B9D1B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2317E493-7A19-447A-A447-C4C16B9D1B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD938FAE-E535-4F92-8C12-5330F772EED3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD938FAE-E535-4F92-8C12-5330F772EED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD938FAE-E535-4F92-8C12-5330F772EED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD938FAE-E535-4F92-8C12-5330F772EED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D11E920-75F5-47D6-93AD-9BD9F61A8F23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D11E920-75F5-47D6-93AD-9BD9F61A8F23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D11E920-75F5-47D6-93AD-9BD9F61A8F23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D11E920-75F5-47D6-93AD-9BD9F61A8F23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4CF7E916-946F-427F-BD92-EE87D3E9C13B}
+	EndGlobalSection
+EndGlobal

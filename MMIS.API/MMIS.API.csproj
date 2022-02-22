@@ -1,0 +1,77 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <!--<AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>-->
+    <!--<AspNetCoreModuleName>AspNetCoreModule</AspNetCoreModuleName>-->
+
+  </PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+		<PackageReference Include="Castle.Windsor" Version="5.0.1" />
+		<PackageReference Include="Castle.Windsor.MsDependencyInjection" Version="3.3.1" />
+		<PackageReference Include="Justin.AspNetCore.LdapAuthentication" Version="2.0.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.5" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.5" />
+		<PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.2.0" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="3.1.5">
+			<PrivateAssets>all</PrivateAssets>
+			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Proxies" Version="3.1.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.5" />
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.5">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+		</PackageReference>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.5" />
+		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+		<PackageReference Include="Newtonsoft.Json" Version="12.0.3" /> 
+		<PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+		<PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+		<PackageReference Include="Serilog.Sinks.Seq" Version="4.0.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="5.4.1" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.1.4" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\MMIS.BusinessLogicLayer\MMIS.BusinessLogicLayer.csproj" />
+		<ProjectReference Include="..\MMIS.Core\MMIS.Core.csproj" />
+		<ProjectReference Include="..\MMIS.DataAccessLayer\MMIS.DataAccessLayer.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="wwwroot\Quality\Inspections\Brewing\Attenuzyme\" />
+	  <Folder Include="wwwroot\Quality\Inspections\MealieMeal\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\Glue\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\Labels\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\LayerBoards\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\ShakeShakeSleeve\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\NewFolder\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\ScudBottles\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\ShrinkFilm\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\Closures\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\Preforms\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\CarbonDioxide\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Packaging\Yeast\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Brewing\LacticAcid\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Brewing\Yeast\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Brewing\Malt\" />
+	  <Folder Include="wwwroot\Quality\Inspections\Brewing\Maize\" />
+	  <Folder Include="wwwroot\Quality\CIP Deviations\" />
+	  <Folder Include="wwwroot\SHE\Appointments\" />
+	  <Folder Include="wwwroot\SHE\AuditRecords\" />
+	  <Folder Include="wwwroot\SHE\ChangeRequest\" />
+	  <Folder Include="wwwroot\SHE\Incidents\" />
+	  <Folder Include="wwwroot\SHE\IncidentDocumemtDescription\" />
+	  <Folder Include="wwwroot\SHE\EnviromentalncidenDocs\" />
+	  <Folder Include="wwwroot\SHE\TaskObservations\" />
+	  <Folder Include="wwwroot\SHE\Suppliers\" />
+	  <Folder Include="wwwroot\SHE\SRA\" />
+      <None Include="wwwroot\*" />
+
+	</ItemGroup>
+</Project>
